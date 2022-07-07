@@ -9,7 +9,8 @@
 1.1.7 node -v
 1.1.8 node.js should now be 12 or higher
 2. Download npm
-2.1.1 sudo npm i -g expo-cli
+2.1.1 sudo apt install npm
+2.1.2 sudo npm i -g expo-cli
 3. Download Expo Go on your smartphone
 
 //Create new project
@@ -57,7 +58,7 @@
 1.  View
 1.1 Most basic and fundamental component of the UI, kind of like a <div> used for grouping or layouting children.
 
-2.  SafeAreaView
+2.  SafeAreaView (iOS only)
 2.1 Like View but doesn't take space under nodge of phones.
 
 3.  Text
